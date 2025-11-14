@@ -1,0 +1,253 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: white;
+  color: #222;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* ===== NAVBAR ===== */
+header {
+  background: #54c45b;
+  padding: 18px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffeaea;
+  text-decoration: underline;
+}
+
+/* ===== GENERIC SECTION STYLING ===== */
+section {
+  width: 90%;
+  margin: 40px auto;
+  background: #f7f9fc;
+  padding: 35px;
+  border-radius: 12px;
+  border: 2px solid #ddd;
+  transition: 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-4px);
+}
+
+section h2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #54c45b;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* ============================= */
+/* ===== HOME PAGE SECTION ===== */
+/* ============================= */
+.home {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.profile-img {
+  width: 230px;
+  height: 260px;
+  border: 6px solid #54c45b;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  transition: 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.12);
+}
+
+.home h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+.home span {
+  color: #54c45b;
+  font-weight: 900;
+  text-shadow: 0px 0px 5px #ffb1b1;
+}
+
+.home p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.btn {
+  display: inline-block;
+  background: #54c45b;
+  color: white;
+  padding: 16px 34px;
+  border-radius: 8px;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: #54c45b;
+  transform: scale(1.08);
+}
+
+/* =============================== */
+/* ===== ABOUT PAGE SECTION ===== */
+/* =============================== */
+.about ul {
+  font-size: 30px;
+  font-weight: 500;
+  color: #333;
+  line-height: 1.8;
+}
+
+/* =============================== */
+/* ===== SKILLS PAGE SECTION ===== */
+/* =============================== */
+.skills h3 {
+  font-size: 28px;
+  margin-top: 20px;
+  color: #111;
+  text-align: left;
+}
+
+.skills ul {
+  margin-left: 35px;
+  margin-top: 10px;
+}
+
+.skills ul li {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+/* ================================== */
+/* ===== PROJECT PAGE SECTION ======= */
+/* ================================== */
+.projects h2 {
+  margin-bottom: 25px;
+}
+
+.project-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  border: 2px solid #ccc;
+  margin-top: 25px;
+  transition: 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.2);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.project-card h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.project-card a {
+  font-size: 22px;
+  font-weight: 700;
+  color: #54c45b;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+/* ================================= */
+/* ===== CONTACT PAGE SECTION ===== */
+/* ================================= */
+.contact p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #222;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.contact a {
+  color: #54c45b;
+  font-weight: 700;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background: #54c45b;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  margin-top: 700px;
+  font-size: 20px;
+  font-weight: 600;
+}
