@@ -1,4 +1,4 @@
-/* ===== RESET ===== */
+
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +13,7 @@ body {
   line-height: 1.6;
 }
 
-/* ===== NAVBAR ===== */
+
 header {
   background: #54c45b;
   padding: 18px 0;
@@ -55,7 +55,7 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* ===== GENERIC SECTION STYLING ===== */
+
 section {
   width: 90%;
   margin: 40px auto;
@@ -78,9 +78,7 @@ section h2 {
   text-align: center;
 }
 
-/* ============================= */
-/* ===== HOME PAGE SECTION ===== */
-/* ============================= */
+
 .home {
   text-align: center;
   padding: 80px 20px;
@@ -136,9 +134,7 @@ section h2 {
   transform: scale(1.08);
 }
 
-/* =============================== */
-/* ===== ABOUT PAGE SECTION ===== */
-/* =============================== */
+
 .about ul {
   font-size: 30px;
   font-weight: 500;
@@ -146,9 +142,7 @@ section h2 {
   line-height: 1.8;
 }
 
-/* =============================== */
-/* ===== SKILLS PAGE SECTION ===== */
-/* =============================== */
+
 .skills h3 {
   font-size: 28px;
   margin-top: 20px;
@@ -219,9 +213,7 @@ section h2 {
   text-decoration: underline;
 }
 
-/* ================================= */
-/* ===== CONTACT PAGE SECTION ===== */
-/* ================================= */
+
 .contact p {
   font-size: 24px;
   font-weight: 500;
@@ -241,7 +233,6 @@ section h2 {
   text-decoration: underline;
 }
 
-/* ===== FOOTER ===== */
 footer {
   background: #54c45b;
   text-align: center;
@@ -250,4 +241,5 @@ footer {
   margin-top: 700px;
   font-size: 20px;
   font-weight: 600;
+
 }
